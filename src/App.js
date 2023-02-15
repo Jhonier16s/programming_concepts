@@ -25,14 +25,7 @@ function App() {
        <Banner/>
       </Slide>
       <Title text={"Tabla de contenido"} h_id="content"/>
-      <JackInTheBox
-            triggerOnce
-            duration={2000}
-            delay={1000}
-            
-            >
       <Content/>
-      </JackInTheBox>
        <Main/>
       <Footer/>
     </>
