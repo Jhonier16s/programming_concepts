@@ -1,0 +1,160 @@
+{
+  "module_1": {
+    "concept": "Los paradigmas de programación? son enfoques distintos para la resolución de problemas a través de la programación de software. Aquí están 5 de los más importantes paradigmas de programación y un resumen de cada uno:",
+    "options": [
+      {
+        "value": "Programación imperativa: Este es el paradigma más antiguo y se enfoca en el uso de comandos para que el ordenador realice acciones específicas. Los lenguajes de programación imperativos incluyen C, C++ y Java."
+      },
+      {
+        "value": "Programación imperativa: Este es el paradigma más antiguo y se enfoca en el uso de comandos para que el ordenador realice acciones específicas. Los lenguajes de programación imperativos incluyen C, C++ y Java."
+      },
+      {
+        "value": "Programación orientada a objetos: Este paradigma se enfoca en la definición de objetos con atributos y métodos, y en la interacción entre objetos para resolver problemas. Los lenguajes de programación orientados a objetos incluyen Java, Python y Ruby."
+      },
+      {
+        "value": "Programación lógica: Este paradigma se enfoca en la representación de conocimiento y en la inferencia automática a partir de ese conocimiento para resolver problemas. Los lenguajes de programación lógicos incluyen Prolog y Mercury."
+      },
+      {
+        "value": "Programación declarativa: Este paradigma se enfoca en la descripción de los resultados deseados, en lugar de en los comandos específicos para alcanzarlos. Los lenguajes de programación declarativos incluyen SQL y XSLT."
+      }
+    ]
+  },
+  "module_2": {
+    "concept": "Los modelos de procesos en la construcción de software son maneras estructuradas de abordar el desarrollo de software, desde la planificación hasta la prueba y el mantenimiento. Estos modelos brindan una guía para coordinar y llevar a cabo el proceso de creación de software de manera eficiente y efectiva.",
+    "options": [
+      {
+        "title": "Modelo waterfall (Cascada)",
+        "value": "Este es un modelo lineal en el que se siguen secuencialmente las fases de análisis, diseño, implementación, pruebas y mantenimiento. Es un modelo tradicional y se considera adecuado para proyectos con requisitos bien definidos y poco cambiantes."
+      },
+      {
+        "title": "Modelo Agile",
+        "value": "Este modelo se basa en la iteración y el ajuste constantes, y se enfoca en la colaboración y la retroalimentación continua entre los desarrolladores y los clientes. Los métodos Agiles incluyen Scrum, Kanban y XP."
+      },
+      {
+        "title": "Modelo en espiral",
+        "value": "Este modelo combina elementos de la cascada y los métodos ágiles, y se enfoca en la evaluación y el control de riesgos a medida que el proyecto avanza."
+      },
+      {
+        "title": "Modelo DevOps",
+        "value": "Este modelo combina la cultura, las prácticas y las herramientas de desarrollo y operaciones para mejorar la entrega de software y la calidad."
+      }
+    ]
+  },
+  "module_3": {
+    "concept": "Un lenguaje de programación es una herramienta fundamental en la informática que permite a los programadores escribir código de manera efectiva y organizada. Es una forma de comunicación con una computadora que le permite realizar tareas específicas. Cada lenguaje de programación tiene sus propias reglas sintácticas y semánticas que deben seguirse, y estas reglas determinan cómo se pueden escribir las instrucciones y cómo deben ser interpretadas por la computadora.",
+    "options": [
+      {
+        "title": "Java",
+        "value": "Un lenguaje de programación de alto nivel orientado a objetos que es popular en el desarrollo de aplicaciones empresariales y aplicaciones para Android."
+      },
+      {
+        "title": "Python",
+        "value": "Un lenguaje de programación de alto nivel con una sintaxis legible y una amplia gama de bibliotecas que lo hacen popular para la ciencia de datos, el aprendizaje automático y el desarrollo web."
+      },
+      {
+        "title": "C++",
+        "value": "Un lenguaje de programación de alto nivel que es utilizado para el desarrollo de sistemas operativos, juegos y aplicaciones de realidad virtual."
+      },
+      {
+        "title": "JavaScript",
+        "value": "Un lenguaje de programación de alto nivel que se utiliza principalmente para el desarrollo de aplicaciones web interactivas."
+      }
+    ]
+  },
+  "module_4": [
+    {
+      "color": "#E6C900",
+      "title": "Historia de JavaScript",
+      "text": "JavaScript fue creado por Brendan Eich en 1995 mientras trabajaba para Netscape Communications Corporation. Inicialmente se llamó Mocha, luego LiveScript y finalmente se lanzó como JavaScript. En 1997, Netscape lo presentó a la ECMA (European Computer Manufacturers Association) para su estandarización, lo que llevó a la creación del estándar ECMAScript. En las décadas siguientes, JavaScript se convirtió en uno de los lenguajes de programación más populares y se utilizó para desarrollar aplicaciones web interactivas y dinámicas. El surgimiento de bibliotecas y marcos como jQuery, React y Angular permitieron a los desarrolladores construir aplicaciones web cada vez más complejas. En la actualidad, JavaScript se utiliza no solo en el desarrollo web, sino también en el desarrollo de aplicaciones móviles, de escritorio y de servidores. Además, el uso de JavaScript se ha expandido a otros campos, como la programación de robots, la realidad virtual y la inteligencia artificial. Personalmente es un lenguaje que me encanta, es con el que acutalmente trabajo, es divertido y curioso, ya tengo aproximadamente 4 años de experiencia con el y lo he utilizado para casi todo",
+      "options": [
+        {
+          "title": "Lenguaje de programación del lado del cliente:",
+          "value": "JavaScript se ejecuta en el navegador web del usuario final y se utiliza para crear interacciones y funcionalidades en el lado del cliente."
+        },
+        {
+          "title": "Lenguaje de programación interpretado",
+          "value": "JavaScript es un lenguaje interpretado, lo que significa que no necesita ser compilado antes de ejecutarse."
+        },
+        {
+          "title": "Orientado a objetos",
+          "value": "JavaScript es un lenguaje de programación orientado a objetos, lo que significa que utiliza objetos para almacenar y manipular datos, pero en realidad serían prototipos de js.."
+        },
+        {
+          "title": "Tipado dinámico",
+          "value": "JavaScript es un lenguaje de programación de tipado dinámico, lo que significa que no es necesario declarar el tipo de datos de una variable antes de utilizarla."
+        }
+      ]
+    },
+    {
+      "color": "#5B8BBD",
+      "title": "Historia de C++",
+      "text": "C++ fue desarrollado por Bjarne Stroustrup a principios de la década de 1980 como una extensión del lenguaje de programación C. Stroustrup trabajaba en el Laboratorio de Bell de AT&T y buscaba un lenguaje de programación que pudiera manejar la complejidad de los sistemas de telecomunicaciones que se estaban desarrollando en ese momento. La primera versión pública de C++ se lanzó en 1985. En los años siguientes, Stroustrup y otros desarrolladores continuaron trabajando en el lenguaje, mejorando su eficiencia y capacidad de programación orientada a objetos. En 1998, se publicó el estándar ISO/IEC 14882:1998 para C++, que estableció el lenguaje como un estándar oficial y lo convirtió en uno de los lenguajes de programación más utilizados en el mundo. Desde entonces, C++ se ha utilizado para desarrollar una amplia variedad de aplicaciones, desde sistemas operativos y controladores de dispositivos hasta juegos y aplicaciones empresariales. El lenguaje continúa evolucionando y en la actualidad su versión más reciente es C++20.",
+      "options": [
+        {
+          "title": "Lenguaje de programación de propósito general:",
+          "value": "C++ es un lenguaje de programación de propósito general que se utiliza en una amplia variedad de aplicaciones, desde sistemas operativos y controladores de dispositivos hasta juegos y aplicaciones empresariales."
+        },
+        {
+          "title": "Programación orientada a objetos:",
+          "value": "C++ es un lenguaje de programación orientada a objetos, lo que significa que utiliza objetos para almacenar y manipular datos. Esta característica permite una mayor modularidad, reutilización de código y estructuración de programas."
+        },
+        {
+          "title": "Eficiencia y control de memoria",
+          "value": "C++ ofrece un alto grado de eficiencia y control sobre la memoria del sistema, lo que lo hace adecuado para aplicaciones que requieren un rendimiento óptimo."
+        },
+        {
+          "title": "Capacidad para trabajar con múltiples paradigmas de programación",
+          "value": "Además de ser un lenguaje de programación orientado a objetos, C++ también admite programación genérica, programación procedimental y programación funcional. Esta capacidad de trabajar con múltiples paradigmas de programación permite a los programadores elegir la mejor metodología para resolver un problema particular, lo que aumenta la flexibilidad y la eficacia de la programación en C++."
+        }
+      ]
+    },
+    {
+      "color": "#2C608B",
+      "title": "Historia de Python",
+      "text": "Python fue creado por Guido van Rossum en 1989 mientras trabajaba en el Centro para las Matemáticas y la Informática en los Países Bajos. Van Rossum quería crear un lenguaje de programación fácil de aprender y leer, y que fuera útil para tareas de programación cotidianas. La primera versión de Python (versión 0.9.0) fue lanzada en 1991. A medida que Python se hizo más popular, se lanzaron nuevas versiones con mejoras y nuevas características. La versión 2.0 se lanzó en 2000 y la versión 3.0 se lanzó en 2008, lo que introdujo algunos cambios significativos en el lenguaje. Python se ha utilizado en una amplia variedad de aplicaciones, desde aplicaciones web y juegos hasta análisis de datos y aprendizaje automático. Además, su popularidad ha sido impulsada por su enfoque en la legibilidad del código y su comunidad activa y acogedora de desarrolladores. En la actualidad, Python es uno de los lenguajes de programación más populares del mundo y es utilizado por programadores de todas las disciplinas y niveles de habilidad.",
+      "options": [
+        {
+          "title": "Sintaxis sencilla y legibilidad",
+          "value": "Python tiene una sintaxis sencilla y fácil de leer, lo que lo hace accesible para principiantes y atractivo para desarrolladores experimentados. Las construcciones del lenguaje, como el uso de sangría en lugar de llaves, hacen que el código sea más fácil de leer y entender."
+        },
+        {
+          "title": "Lenguaje interpretado:",
+          "value": "Python es un lenguaje interpretado, lo que significa que el código se ejecuta línea por línea en lugar de ser compilado en un programa ejecutable. Esto hace que el proceso de desarrollo y depuración sea más rápido y eficiente."
+        },
+        {
+          "title": "Tipado dinámico:",
+          "value": "Python es un lenguaje de tipado dinámico, lo que significa que las variables no necesitan ser declaradas con anticipación y pueden cambiar de tipo durante la ejecución del programa. Esto permite una mayor flexibilidad y un código más conciso."
+        },
+        {
+          "title": "Multiplataforma:",
+          "value": "Python es multiplataforma, lo que significa que los programas escritos en Python pueden ser ejecutados en diferentes sistemas operativos sin necesidad de cambios significativos en el código. Esto hace que Python sea una opción popular para el desarrollo de aplicaciones multiplataforma"
+        }
+      ]
+    },
+    {
+      "id_c":"features_java",
+      "id":"history_java",
+      "color": "#C3310B",
+      "title": "Historia de Java",
+      "text": "La historia de Java comienza en 1991, cuando James Gosling, un programador en Sun Microsystems, comenzó a trabajar en un nuevo lenguaje de programación que estaba destinado a ser utilizado en dispositivos electrónicos de consumo. Gosling y su equipo llamaron al lenguaje Oak, pero después de descubrir que ya existía un lenguaje con ese nombre, lo renombraron como Java. Java fue diseñado desde el principio para ser un lenguaje de programación portable y seguro. El objetivo era crear un lenguaje que pudiera ser utilizado en cualquier plataforma sin la necesidad de reescribir el código para cada sistema operativo. Para lograr esto, Gosling y su equipo diseñaron un sistema que permitía a los programas Java ejecutarse en cualquier máquina que tuviera una Máquina Virtual Java (JVM) instalada. La JVM es una capa de software que se encarga de traducir el código Java en código de máquina que pueda ser ejecutado por la computadora. Java 1.0 se lanzó al público en 1995, y rápidamente se convirtió en uno de los lenguajes de programación más populares del mundo. Su capacidad para ejecutarse en cualquier plataforma, combinada con su seguridad y fiabilidad, lo hizo especialmente popular entre los desarrolladores de aplicaciones empresariales. En los años siguientes, se lanzaron varias versiones nuevas de Java, cada una con nuevas características y mejoras de rendimiento. En 2010, Sun Microsystems fue adquirida por Oracle Corporation, que se ha convertido en el principal desarrollador y mantenedor de Java. Java ha sido utilizado en una amplia variedad de aplicaciones, desde aplicaciones web y móviles hasta sistemas embebidos y aplicaciones empresariales. Aunque Java ha enfrentado algunos problemas de seguridad y controversias a lo largo de los años, sigue siendo uno de los lenguajes de programación más populares y ampliamente utilizados en la actualidad.",
+      "options": [
+        {
+          "title": "Portabilidad",
+          "value": "Una de las características más importantes de Java es su capacidad para ser portátil. Los programas Java pueden ejecutarse en cualquier plataforma que tenga una Máquina Virtual Java (JVM) instalada, lo que significa que los programas Java escritos en una plataforma pueden ejecutarse en cualquier otra plataforma con una JVM sin necesidad de realizar cambios en el código."
+        },
+        {
+          "title": "Orientado a objetos",
+          "value": "Java es un lenguaje de programación orientado a objetos, lo que significa que se centra en la creación de objetos que interactúan entre sí. Esto permite a los desarrolladores crear aplicaciones modulares y escalables, y también les permite reutilizar código y crear jerarquías de clases."
+        },
+        {
+          "title": "Seguridad",
+          "value": "Java es conocido por su seguridad. Los programas Java se ejecutan en un entorno controlado y aislado, lo que significa que no pueden acceder a los recursos del sistema sin permiso. Además, la seguridad de Java se ha mejorado con el tiempo mediante la incorporación de características como la verificación de bytecode y la gestión de permisos."
+        },
+        {
+          "title": "Bibliotecas de clases amplias:",
+          "value": "Java tiene una amplia colección de bibliotecas de clases que los desarrolladores pueden utilizar para crear aplicaciones. Estas bibliotecas de clases incluyen una gran variedad de herramientas y componentes, lo que significa que los desarrolladores pueden ahorrar tiempo y esfuerzo al utilizar estas herramientas preconstruidas en lugar de escribir código desde cero."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+.info_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   flex-direction:column ;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    color: #fff;
+}
+.card{
+    background-color: #ffffff;
+    width: 100%;
+    color: #000;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(7, 127, 154, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    
+}
+ .card:hover{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 10px 0 rgba(7, 127, 154, 0.2);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transform: scale(1.05);}
+.card_2{
+    background-color: transparent;
+    width: 100%;
+    color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(7, 127, 154, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+    .card_2:hover{
+ 
+        color: #00b3ff;
+        box-shadow: 0 0 10px 0 rgba(7, 127, 154, 0.552);
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        transform: scale(1.05);
+    }
+
+    .card_3{
+        background-color: transparent;
+        width: 60%;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(7, 127, 154, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        transition: all 0.3s ease-in-out;
+    }
+        .card_3:hover{
+     
+            color: #00b3ff;
+            box-shadow: 0 0 10px 0 rgba(7, 127, 154, 0.552);
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            transform: scale(1.05);
+        }
+    
