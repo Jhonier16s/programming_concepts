@@ -64,10 +64,12 @@ const Content = () => {
             display: 'flex',
             justifyContent: 'center',
         }}>
+           
             <div className={style.cards_container}>
               {/* Obj map, rellenar el objeto con los titulos, imagenes y referencias!  */}
                 {obj.map((item, index) => { return <Card key={index} refCard={item.refCard} imgCard={item.imgCard} text={item.text} /> })}  
             </div>
+            
         </div>
     </>
   )

@@ -13,3 +13,24 @@
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
      
   }
+  .up_arrow{
+    width: 25px;
+    height: 25px;
+  }
+
+  @media screen and (max-width: 550px) {
+    .button p {
+      display: none;
+     
+    }
+    .button{
+      padding: 10px 20px;
+    }
+    .up_arrow{
+      width: 20px;
+      height: 20px;
+    }
+
+  }
+    
+  

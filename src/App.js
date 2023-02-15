@@ -5,22 +5,37 @@ import Navbar from "./Components/NavBar/Navbar";
 import Title from "./Components/Title/Title";
 import style from "./App.module.css";
 import up_arrow from "./assets/up_arrow.png";
+import Footer from "./Components/Footer/Footer";
+import { Fade, Slide, Hinge, Flip } from "react-awesome-reveal";
+import { JackInTheBox } from "react-awesome-reveal";
 function App() {
 
   return (
-    <div className="App">
+    <>
        <a  href="#content" className={style.button}>
-        Ir al contenido
+        <p style={{
+          margin: "0px"
+        }}>Ir al contenido</p>
         <img style={{
           marginLeft: "5px",
-        }} height={20} width={20} src={up_arrow} alt="up_arrow" className={style.up_arrow}/>
+        }} src={up_arrow} alt="up_arrow" className={style.up_arrow}/>
        </a>
       <Navbar/>
-      <Banner/>
+      <Slide cascade={true} triggerOnce={true} direction="down" duration={1000}>
+       <Banner/>
+      </Slide>
       <Title text={"Tabla de contenido"} h_id="content"/>
+      <JackInTheBox
+            triggerOnce
+            duration={2000}
+            delay={1000}
+            
+            >
       <Content/>
-    <Main/>
-    </div>
+      </JackInTheBox>
+       <Main/>
+      <Footer/>
+    </>
   );
 }
 
