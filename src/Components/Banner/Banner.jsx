@@ -10,7 +10,7 @@ const Banner = () => {
                 <p className={style.welcome}>Bienvenidos!</p>
                 <p style={{
                     fontSize: '30px',
-                }}>Esta web, es un sitio informativo sobre la investigación planteada en la asignatura de programación.</p>
+                }}>este cambio no se irá.</p>
             </div>
             <div>
                 <img className={style.img}  src={programmer} alt="programmer" />

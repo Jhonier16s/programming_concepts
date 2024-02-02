@@ -20,7 +20,7 @@ const obj = [{
 {
     refCard: '#models',
     imgCard: image_2,
-    text: 'Modelo de procesos en la construcción de software.'
+    text: 'Modelo de procesos en la construcción de software..'
   },
   {
     refCard: '#languages',

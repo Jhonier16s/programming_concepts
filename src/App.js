@@ -8,6 +8,7 @@ import up_arrow from "./assets/up_arrow.png";
 import Footer from "./Components/Footer/Footer";
 import { Fade, Slide, Hinge, Flip } from "react-awesome-reveal";
 import { JackInTheBox } from "react-awesome-reveal";
+import Test from "./Components/test";
 function App() {
 
   return (
@@ -15,7 +16,7 @@ function App() {
        <a  href="#content" className={style.button}>
         <p style={{
           margin: "0px"
-        }}>Ir al contenido</p>
+        }}>Ir al contenido testing</p>
         <img style={{
           marginLeft: "5px",
         }} src={up_arrow} alt="up_arrow" className={style.up_arrow}/>
@@ -27,6 +28,7 @@ function App() {
       <Title text={"Tabla de contenido"} h_id="content"/>
       <Content/>
        <Main/>
+       <Test/>
       <Footer/>
     </>
   );
