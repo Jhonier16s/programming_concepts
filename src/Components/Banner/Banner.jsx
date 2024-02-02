@@ -2,6 +2,7 @@ import React from 'react'
 import style from './Banner.module.css'
 import programmer from '../../assets/programmer.svg'
 const Banner = () => {
+  //coment pull test
   return (
     <>
         <div id="Home" className={style.banner}>
